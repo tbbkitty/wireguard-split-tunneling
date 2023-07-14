@@ -6,7 +6,7 @@ Here is an example of a config file:
 ```
 [Interface]
 PrivateKey = <your PrivateKey>
-Address = 10.8.2.3/24, fd11:5ee:bad:c0de::3/64
+Address = 10.8.2.3/24, <add optional ipv6 adress here if your vpn server suports it>
 DNS = 1.1.1.1
 
 [Peer]
