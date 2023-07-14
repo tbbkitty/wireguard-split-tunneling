@@ -16,7 +16,7 @@ AllowedIPs = 10.0.0.1/24, 192.168.0.1/24 ::/0
 Endpoint = <your server ip or dns>
 ```
 
-The magic happens in `AllowedIPs`, in this example we are tunneling to a local remote subnet. It's important to specify the full CIDR. The `::/0` is for routing IPv6, in this example it is routing all IPv& traffic through the VPN.
+The magic happens in `AllowedIPs`, in this example we are tunneling to a local remote subnet. It's important to specify the full CIDR. The `::/0` is for routing IPv6, in this example it is routing all IPv6 traffic through the VPN.
 
 If you want to only route traffic to specific IP adresses;
 ```
